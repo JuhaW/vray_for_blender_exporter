@@ -293,14 +293,8 @@
         {
             "attr": "saturation",
             "default": 0,
-            "desc": "added to the color saturation",
-            "type": "FLOAT",
-            "ui": {
-                "max": 1048576,
-                "min": -1048576,
-                "soft_max": 64,
-                "soft_min": 0
-            }
+            "desc": "",
+            "type": "FLOAT"
         },
         {
             "attr": "hue_tint",
@@ -476,6 +470,16 @@
     ],
     "Type": "TEXTURE",
     "Widget": {
+		 "node_widgets": [
+            {
+                "layout": "COLUMN",
+                "attrs": [
+					 {"name": "brightness"},
+					 {"name": "contrast"},
+					 { "name": "saturation" }
+					 ]
+            }
+        ],
         "widgets": []
     }
 }
