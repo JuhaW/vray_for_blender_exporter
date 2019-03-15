@@ -284,6 +284,15 @@
                 "display_name": "Show AA mask"
             }
         },
+		  {
+            "attr": "enable_bucket_sampler",
+            "default": true,
+            "desc": "Enable bucket sampler",
+            "type": "BOOL",
+            "ui": {
+                "display_name": "Bucket sampler"
+            }
+        },
         {
             "attr": "max_draw_interval",
             "desc": "Max time, in milliseconds, between (partial) image updates (0=disable partial image updates)",
